@@ -1,55 +1,103 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
-    <title>Instagram - 로그인 안함</title>
-    <meta charset="utf-8">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Instagram</title>
+      <link rel="stylesheet" href="CSS/reset.css">
+      <link rel="stylesheet" href="CSS/main.css">
   </head>
   <body>
-
-    <!-- 맨위 instagram 설치 링크 -->
+    <!-- 맨위 instagram 설치 링크 in header -->
     <header>
-      <a href="https://www.microsoft.com/en-us/store/p/instagram/9nblggh5l9xt" target="_blank">
-        <img src="instagram_head.jpg" alt="head_square">
-      </a>
+      <div class="download_header">
+        <a href="https://www.microsoft.com/en-us/store/p/instagram/9nblggh5l9xt">
+          <div class=header_left_wrap>
+            <p>
+              Instagram
+            </p>
+            <p>
+              Windows에서 무료로 다운로드하세요
+            </p>
+          </div>
+          <div class="download">
+            받기
+          </div>
+        </a>
+      </div>
     </header>
 
-    <section>
-      <img  src="phone.jpg" alt="phone">
-      <h1><a href="instagram_logout.html">Instagram</a></h1>
-      친구들의 사진과 동영상을 보려면 클릭하세요<br />
-      <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv1.0%2Fdialog%2Foauth%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%25221ef3r2gvphk44hd17oe10b1uf71bvilj2aj9vwu1dzhprg16dusl4%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26client_id%3D124024574287414%26ret%3Dlogin%26logger_id%3D69f8afd9-5fa7-f81f-909b-a0164a5bf440&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221ef3r2gvphk44hd17oe10b1uf71bvilj2aj9vwu1dzhprg16dusl4%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%23_%3D_&display=page&locale=ko_KR&logger_id=69f8afd9-5fa7-f81f-909b-a0164a5bf440" target="_self">Facebook으로 로그인</a><br /><br />
-
-      <!-- 로그인 폼 -->
-      <form action="join_php">
-        <input type="text" name="email" value="휴대폰 번호 또는 이메일 주소"><br />
-        <input type="text" name="name" value="성명"><br />
-        <input type="text" name="id" value="사용자 이름"><br />
-        <input type="text" name="password" value="비밀번호"><br />
-        <input type="submit" name="" value="가입">
-      </form>
-
-      <!-- 약관 및 개인정보 처리방침 -->
-      <div>
-        가입하면 Instagram의
-        <strong><a href="https://help.instagram.com/478745558852511" target="_blank">약관</a></strong> 및
-        <strong><a href="https://help.instagram.com/155833707900388">개인정보처리방침</a></strong>
-        에 동의하게 됩니다.
+    <div class="content_wrap">
+      <!-- main left part -->
+      <div class="left_wrap">
+        <!-- phone image -->
+        <div class="main_img">
+          <img  src="./image/phone.png" alt="phone">
+        </div>
       </div>
+      <!-- main right part -->
+      <div class="right_wrap">
+        <!-- 첫번째 네모 -->
+        <div class="right_wrap_1">
+          <!-- instagram_logo_img -->
+          <div class="instagram_logo_img">
+            <img  src="./image/instagram_logo.png" alt="instagram_logo">
+          </div>
+          <div class="join">
+            친구들의 사진과 동영상을 보려면<br /> 가입하세요
+          </div>
+          <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv1.0%2Fdialog%2Foauth%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%25221pmp87vjmr0dfop7jq3si3vlqs69xdnbxuq4jj8yt4qduxeze%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26client_id%3D124024574287414%26ret%3Dlogin%26logger_id%3Ddf834207-f48d-b970-3ae6-e91c47d48729&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221pmp87vjmr0dfop7jq3si3vlqs69xdnbxuq4jj8yt4qduxeze%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%23_%3D_&display=page&locale=ko_KR&logger_id=df834207-f48d-b970-3ae6-e91c47d48729" class="facebook_login" target="_self"> Facebook으로 로그인
+          </a>
+          <div class="or_wrap">
+              <div class="boderline"></div>
+              <div class="or_text">또는</div>
+              <div class="boderline"></div>
+          </div>
 
-      <!-- 계정이 있으신가요 -->
-      <div>
-        계정이 있으신가요?
-        <strong><a href="Instagram_logout.html">로그인</a></strong>
-      </div>
 
-      <!-- 앱 다운로드 -->
-      <div>
-        앱을 다운로드하세요
-        <!-- 링크들 -->
+          <!-- 로그인 폼 -->
+          <div class="join_wrap">
+            <form action="join_php" class="join_info">
+              <input type="text" name="email" placeholder="휴대폰 번호 또는 이메일 주소"><br />
+              <input type="text" name="name" placeholder="성명"><br />
+              <input type="text" name="id" placeholder="사용자 이름"><br />
+              <input type="text" name="password" placeholder="비밀번호"><br />
+            </form>
+            <div class="joinbutton">
+              <input type="submit" name="" value="가입">
+            </div>
+          </div>
+          <!-- 약관 및 개인정보 처리방침 -->
+          <div class="agree_text">
+            가입하면 Instagram의
+            <strong><a href="https://help.instagram.com/478745558852511" target="_blank">약관</a></strong> 및
+            <strong><a href="https://help.instagram.com/155833707900388">개인<br />정보처리방침</a></strong>
+            에 동의하게 됩니다.
+          </div>
+        </div>
+
+        <!-- 두번째 네모 -->
+        <div class="right_wrap_2">
+          <p>
+            계정이 있으신가요?
+            <strong><a href="Instagram_logout.html">로그인</a></strong>
+          </p>
+        </div>
+
+        <!-- 앱 다운로드 -->
+        <div class="app_download">
+          <p>앱을 다운로드하세요</p>
+          <!-- 링크들 -->
+          <a href="https://itunes.apple.com/app/instagram/id389801252?mt=8"><img src="./image/apple_logo.png" alt="apple_logo"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DsignupPage%26utm_medium%3Dbadge"><img src="./image/google_logo.png" alt="google_logo">
+        </div></a>
       </div>
-    </section>
+    </div>
 
     <footer>
+      <!-- instagram info -->
       <ul>
         <li><a href="https://www.instagram.com/about/us/">Instagram 정보</a></li>
         <li><a href="https://help.instagram.com/">지원</a></li>
@@ -68,7 +116,9 @@
           </select>
         </li>
       </ul>
+      <!-- instagram text logo -->
+      <span class="instagram_text_logo">© 2017 Instagram
+      </span>
     </footer>
-
   </body>
 </html>

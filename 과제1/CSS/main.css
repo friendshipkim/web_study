@@ -1,0 +1,228 @@
+/*header*/
+.download_header{
+  height: 50px;
+  background: #e52d3a; /* Old browsers */
+  background: -moz-linear-gradient(left, #e52d3a 0%, #e52d43 50%, #e58816 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #e52d3a 0%,#e52d43 50%,#e58816 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e52d3a 0%,#e52d43 50%,#e58816 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e52d3a', endColorstr='#e58816',GradientType=1 );
+  padding :10px;
+}
+.download_header p{
+  color: white;
+}
+
+.header_left_wrap{
+  float: left;
+}
+.download_header .download{
+  float: right;
+  height: 30px;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding : 7px;
+  font-weight: 500;
+  text-align: center;
+}
+/*body section*/
+body{
+  background-color: #fafafa;
+}
+.content_wrap:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.content_wrap{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+.left_wrap{
+  float: left;
+  text-align: right;
+  width: 50%;
+}
+.right_wrap{
+  float: left;
+  width: 50%;
+  padding-left: 32px;
+}
+.main_img img{
+  width : 369px;
+  height: 580px;
+  margin-top: 64px;
+}
+.right_wrap_1{
+  width: 350px;
+  height: 532px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
+  text-align: center;
+}
+.instagram_logo_img img{
+  width : 175px;
+  height: 54px;
+  margin-top: 34px;
+}
+.join{
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  color: #999;
+  margin: 0 40px 10px;
+  text-align: center;
+  margin-top: 14px;
+}
+.facebook_login{
+  display: block;
+  width: 266px;
+  height: 31px;
+  text-align: center;
+  margin: auto;
+  /*a태그 안에서 글씨 가운데로 보내기*/
+  background: #3897f0;
+  border-color: #3897f0;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.or_wrap{
+  margin-top: 20px;
+}
+
+.or_wrap .boderline{
+  width: 104px;
+  display: inline-block;
+  background-color: #aaa;
+  height: 1px;
+  vertical-align: middle;
+}
+
+.or_text{
+  margin: 0 14px;
+  display: inline-block;
+  color: #999;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.join_wrap .join_info{
+  line-height: 2.5;
+  margin-top: 20px;
+}
+.join_wrap .join_info input{
+  width: 266px;
+  height: 31px;
+  border: 1px solid #fafafa;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+::-webkit-input-placeholder { /* 크롬 4–56 -도 가상선택자 */
+    color: #999;
+}
+:-moz-placeholder { /* 파이어폭스 4–18 */
+   color: #999;
+   opacity:  1;
+}
+::-moz-placeholder { /* 파이어폭스 19–50 */
+   color: #999;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* 인터넷 익스플로러 10+ */
+   color:  #999;
+}
+::placeholder { /* 파이어폭스 51+, 크롬 57+ */
+   color: #999;
+   opacity:  1;
+}
+.joinbutton input{
+  background: #3897f0;
+  border-color: #3897f0;
+  color: #fff;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 266px;
+  height: 31px;
+  margin-top: 15px;
+}
+.agree_text{
+  color : #999;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  background-color: white;
+  margin-top: 22px;
+}
+.agree_text a{
+  color : #999;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  background-color: white;
+}
+
+.right_wrap_2{
+  width: 350px;
+  height: 70px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
+  text-align: center;
+  margin-top: 15px;
+}
+.right_wrap_2 p{
+  margin: 27px;
+}
+.right_wrap_2 p a{
+  color: #3897f0;
+}
+.app_download{
+  text-align: center;
+}
+.app_download p{
+  margin-top: 24px;
+}
+.app_download img{
+  margin-top: 24px;
+}
+/*footer*/
+footer{
+  margin-top: 40px;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+footer ul{
+  list-style: none;
+}
+footer li{
+  float: left;
+  margin-left: 16px;
+  color: #003569;
+  font-size: 12px;
+  font-weight: 700;
+}
+footer a{
+  color: #003569;
+  font-size: 12px;
+  font-weight: 700;
+}
+.instagram_text_logo{
+  float: right;
+  color: #999
+}
